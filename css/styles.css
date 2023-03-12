@@ -692,9 +692,11 @@ input {
 .icon-modal {
   position: absolute;
   fill: #212121;
-  left: 55px;
+  left: 50px;
   top: 50px;
-  transform: translateY(-10%);
+  width: 12px;
+  height: 12px;
+  transform: translateY(-70%);
 }
 .input-text {
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -702,7 +704,7 @@ input {
   margin-left: 40px;
   padding: 0.5em 2em 0.5em 2em;
   margin-top: 28px;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s ease-in-out;
 }
 
 .input-text:focus {
