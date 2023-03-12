@@ -427,7 +427,7 @@ footer {
   height: 25px;
   background-color: #ffffff1a;
   border-radius: 50%;
-  padding: 10px;
+  padding: 12px;
   margin-right: 10px;
   cursor: pointer;
   transition-property: background-color;
@@ -465,13 +465,7 @@ footer {
   height: 50px;
   padding-left: 10px;
 }
-.subscribe-to-the-newsletter-portfolio {
-  background-color: transparent;
-  border: 1px solid #ffffff4d;
-  border-radius: 4px;
-  width: 358px;
-  padding-left: 10px;
-}
+
 .button-submit {
   text-align: justify;
   padding-left: 42px;
@@ -489,6 +483,7 @@ footer {
 .icon-button {
   position: absolute;
   fill: #fff;
+  margin-left: 24px;
 }
 .footer-container-three p {
   color: #fff;
@@ -747,6 +742,19 @@ input {
   outline: none;
 }
 
+.subscribe-newsletter-portfolio {
+  background-color: transparent;
+  border: 1px solid #ffffff4d;
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.subscribe-newsletter-portfolio::placeholder {
+  padding: 15px;
+  font-family: "Roboto";
+}
 textarea {
   resize: none;
 }
