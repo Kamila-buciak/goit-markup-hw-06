@@ -670,7 +670,7 @@ input {
 .input-container {
   display: inline-block;
 }
-.label-text {
+.label-name {
   padding-top: 12px;
   margin-left: 40px;
   font-size: 12px;
@@ -702,10 +702,10 @@ input {
 .icon-modal {
   display: inline-block;
   position: absolute;
-  fill: #212121;
-  top: 50px;
-  width: 12px;
-  height: 12px;
+  margin-left: -435px;
+  margin-top: 40px;
+  width: 18px;
+  height: 18px;
 }
 .input-text {
   border: 1px solid rgba(33, 33, 33, 0.2);
