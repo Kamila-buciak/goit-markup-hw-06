@@ -430,7 +430,7 @@ footer {
   background-color: #ffffff1a;
   border-radius: 50%;
   margin-right: 10px;
-  padding: 15px;
+  padding: 9px;
   cursor: pointer;
   transition-property: background-color;
   transition-duration: 250ms;
@@ -447,6 +447,7 @@ footer {
 .footer-icon {
   fill: #ffffffff;
   display: flex;
+  padding: 3px;
 }
 .footer-icon-icon:focus {
   fill: #2196f3;
